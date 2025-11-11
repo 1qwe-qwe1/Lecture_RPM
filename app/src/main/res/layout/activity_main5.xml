@@ -7,4 +7,13 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity5">
 
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3C2626"
+        android:text="Switch dfgdfg"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="124dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

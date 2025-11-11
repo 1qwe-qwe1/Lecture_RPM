@@ -7,4 +7,27 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity4">
 
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RadioButton"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="83dp" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="293dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

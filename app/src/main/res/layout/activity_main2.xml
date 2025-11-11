@@ -7,4 +7,25 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity2">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="274dp"
+        android:layout_height="433dp"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="-73dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <TextClock
+        android:id="@+id/textClock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="361dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
